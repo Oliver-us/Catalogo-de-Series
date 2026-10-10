@@ -1,0 +1,238 @@
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background: #4b0202;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+
+/* Área principal */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+
+/* Controles */
+
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+button,
+input,
+select {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    background: #4b0202;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #750b0b;
+    transform: translateY(-2px);
+}
+
+input,
+select {
+    border: 1px solid #cbd5e1;
+    background: white;
+    color: #1e293b;
+}
+
+input {
+    flex: 1;
+    min-width: 220px;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #a85555;
+    outline-offset: 1px;
+}
+
+
+/* Status */
+
+.status-area {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#status {
+    font-weight: bold;
+    color: #4b0202;
+}
+
+
+/* Lista de séries */
+
+.lista-series {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    align-items: stretch;
+}
+
+
+/* Cards */
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Imagens */
+
+.imagem-serie {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    background: #e2e8f0;
+}
+
+
+/* Conteúdo dos cards */
+
+.conteudo-card {
+    padding: 20px;
+}
+
+.card h2 {
+    color: #4b0202;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    margin: 8px 0;
+    color: #475569;
+}
+
+
+/* Mensagem sem resultados */
+
+.mensagem-vazia {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+
+/* Estatísticas */
+
+.estatisticas {
+    margin-top: 40px;
+    padding: 25px;
+    background: white;
+    border-left: 5px solid #4b0202;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.estatisticas h2 {
+    color: #4b0202;
+    margin-bottom: 15px;
+}
+
+.estatisticas p {
+    margin: 8px 0;
+}
+
+
+/* Rodapé */
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .controles {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .controles input,
+    .controles select,
+    .controles button {
+        width: 100%;
+    }
+
+    .lista-series {
+        grid-template-columns: 1fr;
+    }
+
+    .imagem-serie {
+        height: 320px;
+    }
+
+}

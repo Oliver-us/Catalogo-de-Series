@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "nome": "Velozes e Furiosos 4",
+        "lancamento": 2009,
+        "genero": "Ação",
+        "duracao": "107 Min"
+    },
+
+    {
+        "id": 2,
+        "nome": "Click",
+        "lancamento": 2006,
+        "genero": "Comédia",
+        "duracao": "108 Min"
+    },
+
+    {
+        "id": 3,
+        "nome": "Como Se Fosse a Primeira Vez",
+        "lancamento": 2004,
+        "genero": "Comédia",
+        "duracao": "99 Min"
+    },
+
+    {
+        "id": 4,
+        "nome": "Harry Potter e o Enigma do Príncipe",
+        "lancamento": 2009,
+        "genero": "Fantasia",
+        "duracao": "153 Min"
+    },
+
+    {
+        "id": 5,
+        "nome": "Shrek para Sempre",
+        "lancamento": 2010,
+        "genero": "Infantil",
+        "duracao": "93 Min"
+    },
+
+    {
+        "id": 6,
+        "nome": "Os Simpsons: O Filme",
+        "lancamento": 2007,
+        "genero": "Aventura",
+        "duracao": "87 Min"
+    },
+
+    {
+        "id": 7,
+        "nome": "Gente Grande 2",
+        "lancamento": 2013,
+        "genero": "Comédia",
+        "duracao": "101 Min"
+    },
+
+    {
+        "id": 8,
+        "nome": "Uma Noite no Museu 2",
+        "lancamento": 2009,
+        "genero": "Comédia",
+        "duracao": "105 Min"
+    },
+
+    {
+        "id": 9,
+        "nome": "Gente Grande 2",
+        "lancamento": 2013,
+        "genero": "Comédia",
+        "duracao": "101 Min"
+    },
+
+    {
+        "id": 10,
+        "nome": "Sobrenatural",
+        "lancamento": 2010,
+        "genero": "Terror",
+        "duracao": "103 Min"
+    },
+
+    {
+        "id": 11,
+        "nome": "Homem de Ferro 3",
+        "lancamento": 2013,
+        "genero": "Ação",
+        "duracao": "130 Min"
+    },
+
+    {
+        "id": 12,
+        "nome": "Vingadores: Guerra Infinita",
+        "lancamento": 2018,
+        "genero": "Ação",
+        "duracao": "150 Min"
+    }
+]

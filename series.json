@@ -1,0 +1,60 @@
+{
+    "series": [
+        {
+            "titulo": "Stranger Things",
+            "ano": 2016,
+            "genero": "Ficção científica",
+            "temporadas": 5,
+            "imagem": "img/stranger.jpg"
+        },
+        {
+            "titulo": "Breaking Bad",
+            "ano": 2008,
+            "genero": "Drama",
+            "temporadas": 5,
+            "imagem": "img/breaking-bad.jpg"
+        },
+        {
+            "titulo": "The Office",
+            "ano": 2005,
+            "genero": "Comédia",
+            "temporadas": 9,
+            "imagem": "img/the-office.jpg"
+        },
+        {
+            "titulo": "Dark",
+            "ano": 2017,
+            "genero": "Ficção científica",
+            "temporadas": 3,
+            "imagem": "img/dark.jpg"
+        },
+        {
+            "titulo": "The Boys",
+            "ano": 2019,
+            "genero": "Ação",
+            "temporadas": 5,
+            "imagem": "img/the-boys.jpg"
+        },
+        {
+            "titulo": "Lost",
+            "ano": 2004,
+            "genero": "Aventura",
+            "temporadas": 6,
+            "imagem": "img/lost.jpg"
+        },
+        {
+            "titulo": "Vikings",
+            "ano": 2013,
+            "genero": "Ação",
+            "temporadas": 6,
+            "imagem": "img/vikings.jpg"
+        },
+        {
+            "titulo": "Arcane",
+            "ano": 2021,
+            "genero": "Animação",
+            "temporadas": 2,
+            "imagem": "img/arcane.jpg"
+        }
+    ]
+}

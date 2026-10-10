@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo de Séries</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Catálogo de Séries</h1>
+        <p>Explore suas séries favoritas com dados carregados via JSON</p>
+    </header>
+
+    <main>
+
+        <section class="controles">
+
+            <button id="btnBuscar">Carregar Séries</button>
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar série pelo título..."
+            >
+
+            <select id="filtroGenero">
+                <option value="">Todos os gêneros</option>
+            </select>
+
+            <select id="filtroAno">
+                <option value="">Todos os anos</option>
+            </select>
+
+            <button id="btnOrdenar">Ordenar por Ano</button>
+
+        </section>
+
+        <section class="status-area">
+            <p id="status">Clique em "Carregar Séries" para começar.</p>
+        </section>
+
+        <section
+            id="listaSeries"
+            class="lista-series">
+        </section>
+
+        <section class="estatisticas">
+
+            <h2>Estatísticas do Catálogo</h2>
+
+            <p id="totalSeries">Total de séries: 0</p>
+
+            <p id="serieAntiga">Série mais antiga: -</p>
+
+            <p id="serieRecente">Série mais recente: -</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Interfaces Web II - ETEC Guarulhos</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
